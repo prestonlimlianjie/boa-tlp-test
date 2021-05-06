@@ -16,6 +16,7 @@
 
 <!-- Add script to retrieve highlight recommendations -->
 {%- if page.layout == "homepage" -%}
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="{{- "/assets/js/highlights-recommender.js" | relative_url -}}" crossorigin="anonymous"></script>
 {%- endif -%}
 

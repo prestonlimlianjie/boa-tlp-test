@@ -14,7 +14,7 @@
 
 <!-- Add script to retrieve highlight recommendations -->
 {%- if page.layout == "homepage" -%}
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" integrity="sha384-LQc6P0tjydf0IS2VO/iGZcRhIK1mYatxhr+EGHA361ABtAiPhLj0Y9H6zAqto47a" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js" integrity="sha384-LQc6P0tjydf0IS2VO/iGZcRhIK1mYatxhr+EGHA361ABtAiPhLj0Y9H6zAqto47a" crossorigin="anonymous"></script>
   <script src="{{- "/assets/js/highlight-recommender.js" | relative_url -}}" crossorigin="anonymous"></script>
 {%- endif -%}
 
